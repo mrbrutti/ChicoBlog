@@ -3,7 +3,7 @@ require 'rexml/document'
 require 'digest/md5'
 require 'json'
 require 'date'
-require 'getoptlong'
+require 'GetoptLong'
 require 'nokogiri'
 require 'uri'
 
@@ -167,7 +167,7 @@ end
 
 opts = GetoptLong.new(
   [ '--help', '-h', GetoptLong::NO_ARGUMENT ],
-  [ '--wordpress','-w', GetoptLong::REQUIRED_ARGUMENTT ],
+  [ '--wordpress','-w', GetoptLong::REQUIRED_ARGUMENT ],
   [ '--output','-o', GetoptLong::REQUIRED_ARGUMENT ]
 )
 
